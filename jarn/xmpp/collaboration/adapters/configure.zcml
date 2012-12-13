@@ -16,6 +16,7 @@
     <adapter factory=".unlock.CollaborativelyEditableLocking"/>
 
     <!-- Dexterity behavior -->
+    <!-- vipod: we don't need it so far
     <configure zcml:condition="installed plone.app.dexterity">
       <include package="plone.behavior" file="meta.zcml" />
       <plone:behavior
@@ -27,5 +28,6 @@
           for="plone.dexterity.interfaces.IDexterityContent"
           />
     </configure>
+    -->
 
 </configure>
